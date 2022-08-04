@@ -1,0 +1,25 @@
+.text-color{
+    color: #c42222;
+}
+.carousel-item{
+    height: 100%;
+    min-height: 260px;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+.carousel-item img{
+    height: 100%;
+    min-height: 360px;
+}
+.carousel-caption{
+    padding-top: 10px;
+}
